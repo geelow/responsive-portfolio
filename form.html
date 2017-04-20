@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact | Jamie Gelo</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Jamie Gelo</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Porfolio</a>
+				<a href="form.html">Contact</a>
+			</nav>	
+		</div>
+	</header>
+	
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
+
+  			<form id="/contact-form">
+			<ul>
+				<li>
+    				<label for="name">Name</label>
+    				<input type="text" id="name" name="name" placeholder="Finn The Human">
+    			</li>	
+				<li>
+		    		<label for="email">Email</label>
+    				<input type="text" id="email" name="email_address" placeholder="example@gmail.com">
+				</li>
+				<li>
+		    		<label for="message">Message</label>
+    				<textarea id="message" name="message" placeholder="Tell me something..." style="height:200px"></textarea>
+    			</li>
+    		</ul>	
+    		<input type="submit">
+    		</form>
+		</section>
+		
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				
+				<a href="https://github.com/geelow" target="_blank"><img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub"></a>
+				<a href="https://www.linkedin.com/in/jamie-gelo-csm-cspo-833a8311/" target="_blank"><img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
+				<a href="https://stackoverflow.com/users/2670960/geelow123" target="_blank"><img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
+			</div>	
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			© Copywrite 2017 Jamie Gelo
+		</div>
+	</footer>
+
+</body>
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>
+</html>
